@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+	<script src="https://unpkg.com/vue"></script>
   	<link href="styles/styles.css" rel="stylesheet">
   	<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
     <meta charset="utf-8">
@@ -8,7 +9,15 @@
   </head>
   <body>
   	<h1>Nick's Web Page</h1>
-    <img src="images/Doge_Meme.png" alt="A Dog picture of a Shiba Inu, with the text: wow, many readers, such knowledge">
+	<img src="images/Doge_Meme.png" alt="A Dog picture of a Shiba Inu, with the text: wow, many readers, such knowledge">
+	<div id = "button">
+		<button v-btn:click="googleme"><a href="https://google.com" target="_blank" style="color: white; text-decoration: none;"> Head to Google</a></button>
+		<script>
+			var button = new Vue({
+				el: "#button",
+			})
+		</script>
+	</div>
     <h2>A little about me</h2>
     <ul>
     	<li>My name is Nick</li>
@@ -16,7 +25,8 @@
     	<li>I study at Missouri University of Science and Technology (MST)</li>
     	<li>I play too many video games for my own good :/ </li>
     	<li>The dog shown is a Shiba Inu, which I think is a beatiful breed. Click <a href="https://en.wikipedia.org/wiki/Shiba_Inu" target="_blank">here</a> for some more information about it </li>
-    </ul>
+	</ul>
+	
     <h2>Where do I live? This might tell you...</h2>
     <p>
     	Yeah, yeah, yeah, yeah, yeah<br>
@@ -48,5 +58,16 @@
 		Don't catch you slippin' now<br>
 		Look what… <br>
 	</p>
+	<div id="app">
+		<script>
+			var app = new Vue({
+				el: '#app',
+				data: {
+					message: 'Hello Vue!'
+				}
+			})
+		</script>
+	</div>
+	
   </body>
 </html> 
