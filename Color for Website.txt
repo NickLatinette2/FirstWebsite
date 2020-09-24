@@ -1,0 +1,5 @@
+#660066
+@ head html:
+<link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet"> 
+@ css
+font-family: 'Ranchers', cursive;

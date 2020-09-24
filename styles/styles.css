@@ -1,0 +1,41 @@
+p, li {
+	color: white;
+	/* font-family: 'Ranchers', cursive; */
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
+	line-height: 30px;
+	/*letter-spacing: 3px;*/
+
+}
+html {
+	background-color: #003366;
+}
+h1 {
+	font-size: 71px;
+	text-align: center;
+	font-family: 'Ranchers', cursive; 
+	letter-spacing: 3px;
+}
+
+a {
+	color: green;
+}
+
+h2 {
+	font-size: 40px;
+	font-family: 'Ranchers', cursive;
+	letter-spacing: 3px;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 8px solid white;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
